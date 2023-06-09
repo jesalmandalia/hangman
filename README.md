@@ -5,7 +5,7 @@ Hangman is a classic game in which a player thinks of a word, and the other play
 In the implementation of the Hangman game, the computer thinks of a word, and the user tries to guess it. The game progresses as the user enters letters one by one, attempting to uncover the word. If the user guesses a correct letter, it is revealed in the word. However, if the user guesses an incorrect letter, a part of the hangman is drawn. The goal is to guess the word before the hangman is completely drawn.
 
 ## Milestone 2
-In milestone 2 of the game, the "milestone_2.py" file sets up some of the necessary variables for constructing the Hangman game. These variables include the word to be guessed and a list to keep track of the guessed letters. The file also includes a check to ensure that the user's input is alphabetical and a single letter.
+In milestone 2 of the game, the "milestone_2.py" file sets up some of the necessary variables for constructing the Hangman game. These variables include the word to be guessed. The file also includes a check to ensure that the user's input is alphabetical and a single letter.
 
 ## Milestone 3
 Building upon milestone 2, milestone 3 introduces two functions. 
