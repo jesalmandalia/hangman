@@ -6,8 +6,8 @@ class Hangman:
         Initialises the Hangman game with the a word list and number of lives.
 
         Args:
-            word_list (list): List of words to choose from.
-            num_lives (int, optional): Number of lives the player has, default is 5.
+            word_list (list): List of words to choose from. 
+            num_lives (int, optional): Number of lives the player has, default is 5. This can be customised before running.
         """
         self.word = random.choice(word_list)
         self.word_guessed = ['' for _ in range(len(self.word))]
@@ -32,6 +32,7 @@ class Hangman:
                     if letter == guess:
                         self.word_guessed[i] = guess
                         self.num_letters -= 1
+            print(self.word_guessed)
         else:
             self.num_lives -= 1
             print(f"Sorry, {guess} is not in the word.")
@@ -59,7 +60,6 @@ def play_game(word_list):
     Args:
         word_list (list): List of words to choose from.
     """
-    num_lives = 5
     game = Hangman(word_list, num_lives)
     while True:
         if game.num_lives == 0:
@@ -73,6 +73,11 @@ def play_game(word_list):
             break
 
 
-# Example usage:
-word_list = ["mango", "coconut", "strawberry", "avocado", "peach"]
+"""
+Example of running the Hangman game by calling the play_game function. 
+The  num_lives (int) and word_list (list) can be customised before running.
+"""
+num_lives = 5 
+word_list = ["mango", "coconut", "strawberry", "avocado", "peach"] 
+
 play_game(word_list)
