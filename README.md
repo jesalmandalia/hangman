@@ -12,7 +12,7 @@ In the implementation of the Hangman game, the computer thinks of a word, and th
 		- [Methods](#methods)
 - [Milestone 5](#milestone-5)
 	- [play\_game()](#play_game)
-	- [How To Run](#how-to-run)
+- [How To Run](#how-to-run)
 
 
 # Milestone 2
@@ -66,7 +66,7 @@ In milestone 5, further improvements are made to the Hangman game. The following
  Outside the function:
   - Call the `play_game` function to play the game. Don't forget to pass in your list of words as an argument to the function.
 
-## How To Run
+# How To Run
 
 To run the game:
 1. Ensure you have Python installed on your machine.
