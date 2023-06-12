@@ -28,7 +28,7 @@ The `check_guess()` function converts the user's input, referred to as 'guess', 
 The `ask_for_input()` function prompts the user to input a letter. It performs the necessary checks to ensure that the user's input is alphabetical and a single letter. If the input passes all the tests, the `check_guess()` function is called to evaluate the guess. Additionally, it keeps track of the list of guesses made by the user.
 
 # Milestone 4
-In milestone 4, the Hangman class is defined, encapsulating the game's functionality. Here is an overview of the class:
+In milestone 4, the Hangman class is defined. Here is an overview of the class:
 
 ## Hangman Class
 The Hangman class represents the Hangman game.
@@ -51,7 +51,7 @@ The Hangman class represents the Hangman game.
 These milestones provide the foundation for a basic Hangman game, allowing players to guess letters and uncover the hidden word.
 
 # Milestone 5
-In milestone 5, further improvements are made to the Hangman game. The following changes are implemented:
+In milestone 5, the game logic has been added so the user can play the Hangman game. Milestone 5 begins by copying the class defined in milestone 4 and then the following changes are implemented:
 
 ## play_game()
 - Create a function called `play_game` that takes `word_list` as a parameter.
