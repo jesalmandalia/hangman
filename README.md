@@ -1,6 +1,6 @@
 Hangman is a classic game in which a player thinks of a word, and the other player tries to guess that word within a certain amount of attempts. It is a popular game that tests your vocabulary and deductive skills.
 
-In the implementation of the Hangman game, the computer thinks of a word, and the user tries to guess it. The game progresses as the user enters letters one by one, attempting to uncover the word. If the user guesses a correct letter, it is revealed in the word. In the Hangman game, if the user guesses an incorrect letter, instead of drawing a visual representation of the hangman, the number of lives is reduced by 1. The goal of the game remains the same: to guess the word before the number of lives reaches 0, indicating a lost game.
+In the implementation of the Hangman game, the computer thinks of a word, and the user tries to guess it. The game progresses as the user enters letters one by one, attempting to uncover the word. If the user guesses a correct letter, it is revealed in the word. In this version of the Hangman game, if the user guesses an incorrect letter, instead of drawing a visual representation of the hangman, the number of lives is reduced by 1. The goal of the game remains the same: to guess the word before the number of lives reaches 0, indicating a lost game.
 
 - [Milestone 2](#milestone-2)
 - [Milestone 3](#milestone-3)
