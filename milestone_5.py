@@ -10,7 +10,7 @@ class Hangman:
             num_lives (int, optional): Number of lives the player has, default is 5. This can be customised before running.
         """
         self.word = random.choice(word_list)
-        self.word_guessed = ['' for _ in range(len(self.word))]
+        self.word_guessed = ['_' for _ in range(len(self.word))]
         self.num_letters = len(self.word)
         self.num_lives = num_lives
         self.word_list = word_list
