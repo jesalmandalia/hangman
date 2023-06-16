@@ -24,11 +24,10 @@ def ask_for_input():
 
 		# check user input is a single alphabetical letter
 		if len(guess) == 1 and guess.isalpha():
-			break
+			check_guess(guess)
 		else:
 			print("Invalid letter. Please, enter a single alphabetical character.")
 	
-	check_guess(guess)
   
 ask_for_input()
 
